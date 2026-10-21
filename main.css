@@ -1,0 +1,143 @@
+body {
+    font-family: "Lato", sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgb(83, 126, 220);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 2px gray;
+    width: 100%;
+}
+
+#firstcontainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 38px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-top: 8px;
+}
+
+#firstcontainer img {
+    width: 12%;
+}
+#firstcontainer h1 {
+   color: white; 
+   font-size: 150%;
+   font-family: "Lato" sans-serif;
+}
+
+/* -- Sorting -- */
+
+#filter-container {
+    margin-right: 20px;
+}
+
+#filter-container > input, #Search-Filter > button{
+    color: white;
+    background-color: transparent;
+    border: 3px solid white;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    font-size: 20px;
+
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#filter-container > input:hover, #Search-Filter > button:hover{
+    color: rgb(34, 81, 182);
+    background-color: white;
+}
+
+.radio-div{
+    display: flex;
+    padding: 2px !important;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.radio-div input{
+    width: 20px !important;
+}
+
+.radio-div > label{
+    margin: 3px;
+    font-size: 20px;
+
+    transition: all 0.2s;
+}
+
+.radio-div > label:hover{
+    color: rgb(44 99 222 / 76%);
+    cursor: pointer;
+}
+
+/* -- Search CSS -- */
+
+legend {
+    color: white;
+    font-weight: bold;
+    padding: 13px;
+}
+
+#Search-Filter
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#searchInput {
+    padding: 13px;
+    border: 0;
+    border-radius: 20px;
+    
+    font-size: 15px;
+}
+
+#end
+{
+    background-color: antiquewhite;
+    padding: 40px 0 40px 40px ;
+    bottom: 10%;
+    width: 100%; 
+}
+
+.last-text
+{
+    position: relative;
+}
+
+#Filter-table
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    height: 400px;
+}
+
+.tag-div
+{
+    width: 20%;
+}
+
+/* -- Extra CSS -- */
+
+.display-as-row {
+    display:flex;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+
+.display-as-row > div {
+    padding: 0 5% 0 5%;
+}

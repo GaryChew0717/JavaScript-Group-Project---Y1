@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="main.css">
+    <link type="text/css" rel="stylesheet" href="table.css">
+    <link type="text/css" rel="stylesheet" href="mobile.css">
+    <script src="JSFiles/main.js"></script>
+    <!-- Add Google font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- Header content -->
+
+    <header>
+        <div id="firstcontainer">
+            <div class="hamburger">
+                <div class="hamburger-icon" onclick="hamburgerDisplay()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <img src="Images/new_logo.png" alt="" />
+            <h1>UN's Responsible Consumption & Production</h1>
+        </div>
+
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+            <div id="Search-Filter">
+                <legend>Search Title: </legend>
+                <input type="search" id="searchInput" placeholder="Enter Title"
+                    oninput="searchItemsByTitle(document.getElementById('searchInput').value)">
+            </div>
+
+            <div id="filter-container">
+                <input type="button" value="Sort Table" id="sort-button" onclick="sortDisplay()" />
+                <input type="button" value="Filter" id="sort-button" onclick="filterOpen()" />
+                <input type="button" value="Add Example" id="sort-button" onclick="showAddForm()" />
+                <input type="button" value="Tag Manager" id="sort-button" onclick="tagManager()" />
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Div for hamburger menu items (outside of window currently) -->
+
+    <div class="hamburger-menu">
+        <input type="button" value="Sort Table" id="sort-button" onclick="sortDisplay(); hamburgerDisplay()" />
+        <input type="button" value="Filter" id="sort-button" onclick="filterOpen(); hamburgerDisplay()" />
+        <input type="button" value="Add Example" id="sort-button" onclick="showAddForm(); hamburgerDisplay()" />
+        <input type="button" value="Tag Manager" id="sort-button" onclick="tagManager(); hamburgerDisplay()" />
+    </div>
+
+    <!-- Main content -->
+
+    <main id="display">
+
+        <div id="addExample" style="display:none;">
+            <div class="modal-header">
+                <h3>Add New Example</h3>
+            </div>
+            <div class="modal-content">
+                <select id="newTarget">
+                </select>
+
+                <input type="text" id="newTitle" placeholder="Title">
+                <input type="number" min="1" max="5" id="newRating" placeholder="Rating">
+                <input type="text" id="newDesc" placeholder="Description">
+                <input type="text" id="newImg" placeholder="Image URL">
+                <h2>Tags</h2>
+                <div class="display-as-row">
+                    <select class="tag-select" id="newTag1"></select>
+                    <select class="tag-select" id="newTag2"></select>
+                    <select class="tag-select" id="newTag3"></select>
+                    <select class="tag-select" id="newTag4"></select>
+                </div>
+            </div>
+
+            <div class="modal-buttons">
+                <button onclick="processAdd()">Submit-Record</button>
+                <button id="closeButton" onclick="modalPopup(true)">Cancel</button>
+            </div>
+        </div>
+
+        <div id="display-table"></div>
+        <div id="modal-back" onclick="modalPopup(true, 0)"></div>
+        <div id="modal"></div>
+    </main>
+
+
+
+    <footer id="end">
+        <p class="last-text">&copy; 2026 Gary, Matei, Ryan. All right reserved.</p>
+    </footer>
+</body>
+
+</html>

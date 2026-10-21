@@ -1,0 +1,199 @@
+{
+  "goal": {
+    "number": 12,
+    "title": "Responsible Consumption and Production",
+    "description": "Ensure sustainable consumption and production patterns.",
+    "links": {
+      "official": "https://sdgs.un.org/goals/goal12",
+      "undp": "https://www.undp.org/sustainable-development-goals#responsible-consumption-and-production"
+    },
+    "targets": [
+      {
+        "id": 1,
+        "number": "12.1",
+        "description": "Implement the 10-Year Framework of Programmes on Sustainable Consumption and Production.",
+        "examples": [
+          {
+            "title": "EU Circular Economy Action Plan",
+            "description": "Policies that support circular economy systems.",
+            "images": [
+              "https://derek.comp.dkit.ie/un/images/un_sustainable_development_goals_12_1_01.png",
+              "https://derek.comp.dkit.ie/un/images/un_sustainable_development_goals_12_1_02.png"
+            ],
+            "tags": ["circular economy", "policy", "waste reduction", "EU"]
+          },
+          {
+            "title": "Japan’s 3R Initiative",
+            "description": "Japan promotes Reduce, Reuse, Recycle.",
+            "images": [
+              "https://derek.comp.dkit.ie/un/images/un_sustainable_development_goals_12_1_03.png",
+              "https://derek.comp.dkit.ie/un/images/un_sustainable_development_goals_12_1_04.png"
+            ],
+            "tags": ["3R", "waste reduction", "Japan", "policy"]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "number": "12.2",
+        "description": "By 2030, achieve sustainable management and efficient use of natural resources.",
+        "examples": [
+          {
+            "title": "Sustainable Forestry in Finland",
+            "description": "Finland manages forests sustainably.",
+            "images": [
+              "https://derek.comp.dkit.ie/un/images/un_sustainable_development_goals_12_2_01.png"
+            ],
+            "tags": ["forestry", "natural resources", "sustainability", "Finland"]
+          },
+          {
+            "title": "Water Efficiency in Singapore",
+            "description": "Singapore’s advanced water recycling systems.",
+            "images": [
+              "https://derek.comp.dkit.ie/un/images/un_sustainable_development_goals_12_2_02.png"
+            ],
+            "tags": ["water management", "technology", "Singapore", "resource efficiency"]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "number": "12.3",
+        "description": "Halve per capita global food waste.",
+        "examples": [
+          {
+            "title": "Food Rescue Program",
+            "description": "Connecting restaurants with consumers to reduce food waste.",
+            "images": [
+              "https://derek.comp.dkit.ie/un/images/un_sustainable_development_goals_12_3_01.png"
+            ],
+            "tags": ["food waste", "technology", "app"]
+          },
+          {
+            "title": "France’s Food Waste Law",
+            "description": "France bans supermarkets throwing food away.",
+            "images": [
+              "https://derek.comp.dkit.ie/un/images/un_sustainable_development_goals_12_3_02.png"
+            ],
+            "tags": ["policy", "food waste", "France"]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "number": "12.4",
+        "description": "Environmentally sound management of chemicals and wastes.",
+        "examples": [
+          {
+            "title": "Hazardous Waste Control",
+            "description": "Regulating hazardous waste movement.",
+            "images": [
+              "https://derek.comp.dkit.ie/un/images/un_sustainable_development_goals_12_4_01.png"
+            ],
+            "tags": ["international treaty", "hazardous waste"]
+          },
+          {
+            "title": "Sweden’s Chemical Tax",
+            "description": "Tax on hazardous chemicals in electronics.",
+            "images": [
+              "https://derek.comp.dkit.ie/un/images/un_sustainable_development_goals_12_4_02.png"
+            ],
+            "tags": ["chemicals", "tax policy", "Sweden"]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "number": "12.5",
+        "description": "Substantially reduce waste generation.",
+        "examples": [
+          {
+            "title": "San Francisco Zero Waste Program",
+            "description": "Strict recycling & composting laws.",
+            "images": [
+              "https://derek.comp.dkit.ie/un/images/un_sustainable_development_goals_12_5_01.png"
+            ],
+            "tags": ["zero waste", "recycling"]
+          },
+          {
+            "title": "Plastic Bag Ban in Kenya",
+            "description": "Kenya bans plastic bags.",
+            "images": [
+              "https://derek.comp.dkit.ie/un/images/un_sustainable_development_goals_12_5_02.png"
+            ],
+            "tags": ["plastic ban", "Kenya"]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "number": "12.6",
+        "description": "Encourage companies to adopt sustainability reporting.",
+        "examples": [
+          {
+            "title": "Corporate Sustainability Reporting",
+            "description": "Companies integrating sustainability into business.",
+            "images": [
+              "https://derek.comp.dkit.ie/un/images/un_sustainable_development_goals_12_6_01.png"
+            ],
+            "tags": ["corporate sustainability"]
+          },
+          {
+            "title": "Outdoor Industry Transparency",
+            "description": "Environmental impact reporting in outdoor industry.",
+            "images": [
+              "https://derek.comp.dkit.ie/un/images/un_sustainable_development_goals_12_6_02.png"
+            ],
+            "tags": ["corporate sustainability", "reporting"]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "number": "12.7",
+        "description": "Promote sustainable public procurement.",
+        "examples": [
+          {
+            "title": "Green Public Procurement in Europe",
+            "description": "Government sustainability standards.",
+            "images": [
+              "https://derek.comp.dkit.ie/un/images/un_sustainable_development_goals_12_7_01.png"
+            ],
+            "tags": ["green procurement", "EU"]
+          },
+          {
+            "title": "South Korea’s Green Purchasing Law",
+            "description": "Eco-friendly purchasing policies.",
+            "images": [
+              "https://derek.comp.dkit.ie/un/images/un_sustainable_development_goals_12_7_02.png"
+            ],
+            "tags": ["procurement", "South Korea"]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "number": "12.8",
+        "description": "Ensure global awareness for sustainable development.",
+        "examples": [
+          {
+            "title": "SDG Public Campaigns",
+            "description": "Education and awareness programs.",
+            "images": [
+              "https://derek.comp.dkit.ie/un/images/un_sustainable_development_goals_12_8_01.png"
+            ],
+            "tags": ["awareness", "UN"]
+          },
+          {
+            "title": "Costa Rica Environmental Education",
+            "description": "Schools teach eco-friendly practices.",
+            "images": [
+              "https://derek.comp.dkit.ie/un/images/un_sustainable_development_goals_12_8_02.png"
+            ],
+            "tags": ["education", "Costa Rica"]
+          }
+        ]
+      }
+    ]    
+  }
+}
