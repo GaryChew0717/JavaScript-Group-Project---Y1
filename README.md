@@ -53,4 +53,4 @@ A team of three students: Gary, Matei and Ryan.
 
 ## Author
 
-Jing Yeng Chew (Gary), [LinkedIn](https://www.linkedin.com/in/jing-yeng-chew-aa2419335/)
+Jing Yeng Chew (Gary), Matei, Ryan [LinkedIn](https://www.linkedin.com/in/jing-yeng-chew-aa2419335/)
