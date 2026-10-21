@@ -1,5 +1,4 @@
-﻿# JavaScript-Group-Project---Y1
-# UN Responsible Consumption & Production — JavaScript Group Project
+﻿# UN Responsible Consumption & Production — JavaScript Group Project
 An interactive web page about the UN's Responsible Consumption & Production goal. Users can browse a table of examples, search, sort and filter them, add new examples, and manage tags. Built by a team of three as a Year 1 JavaScript group project at Dundalk Institute of Technology (DkIT), BSc (Hons) in Computing in Software Development.
 
 ## Features
